@@ -14,3 +14,9 @@ carro = int(input("Valor do carro - R$ "))
 entrada = soma
 financiamento = carro - entrada
 print("Valor a financiar R$%7.2f " %financiamento)
+
+#Parcelando o valor restante com juros
+
+parcela = (financiamento * 1.89) / 12
+print("Quantidade de mês - 12")
+print("Valor das parcelas - R$%7.2f" % parcela)
