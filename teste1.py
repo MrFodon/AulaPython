@@ -13,4 +13,4 @@ print("Valor final -  R$%6.2f" % soma)
 carro = int(input("Valor do carro - R$ "))
 entrada = soma
 financiamento = carro - entrada
-print("Valor a financiar R$%7.2f " % (financiamemto)
+print("Valor a financiar R$%7.2f " %financiamento)
